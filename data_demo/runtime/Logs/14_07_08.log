@@ -1,0 +1,1109 @@
+[ 2014-07-08T23:26:18+08:00 ] 0.0.0.0 /wxshop/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006835s ]
+NOTIC: [2048] Declaration of settingModel::_before_write() should be compatible with Model::_before_write(&$data) E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `demo_setting` [ RunTime:0.100005s ]
+SQL: SELECT `name`,`data` FROM `demo_setting`  [ RunTime:0.002706s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 12 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 12 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 59 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 207 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 21 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 7 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 197 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 2 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 3 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 22 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 12 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 19 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 4 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 12830 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 40 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 12 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 3 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 27 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 25 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 25 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 6 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 8 bytes E:\wamp\www\wxshop\app\Lib\Model\settingModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.027529s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833175 [ RunTime:0.001253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.001123s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000494s ]
+INFO: Run load_lang Behavior [ RunTime:-0.519026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.537074s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2048] Declaration of oauthModel::_before_write() should be compatible with Model::_before_write(&$data) E:\wamp\www\wxshop\app\Lib\Model\oauthModel.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `demo_oauth` [ RunTime:0.021717s ]
+SQL: SELECT `code`,`name`,`config` FROM `demo_oauth` WHERE ( `status` = 1 ) ORDER BY ordid  [ RunTime:0.257357s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Model\oauthModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.020494s ]
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.020213s ]
+SQL: SELECT `id`,`pid`,`spid` FROM `demo_item_cate` WHERE status=1 ORDER BY ordid  [ RunTime:0.001253s ]
+SQL: SELECT `spid` FROM `demo_item_cate` WHERE ( `id` = 342 ) LIMIT 1   [ RunTime:0.126077s ]
+SQL: SELECT `id` FROM `demo_item_cate` WHERE ( `spid` LIKE '342|%' )  [ RunTime:0.173308s ]
+SQL: SELECT `spid` FROM `demo_item_cate` WHERE ( `id` = 343 ) LIMIT 1   [ RunTime:0.001132s ]
+SQL: SELECT `id` FROM `demo_item_cate` WHERE ( `spid` LIKE '343|%' )  [ RunTime:0.001171s ]
+SQL: SELECT `spid` FROM `demo_item_cate` WHERE ( `id` = 344 ) LIMIT 1   [ RunTime:0.001038s ]
+SQL: SELECT `id` FROM `demo_item_cate` WHERE ( `spid` LIKE '344|%' )  [ RunTime:0.001065s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 34 行.
+SQL: SELECT `spid` FROM `demo_item_cate` WHERE ( `id` = 345 ) LIMIT 1   [ RunTime:0.000949s ]
+SQL: SELECT `id` FROM `demo_item_cate` WHERE ( `spid` LIKE '345|%' )  [ RunTime:0.001061s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 34 行.
+SQL: SELECT `spid` FROM `demo_item_cate` WHERE ( `id` = 346 ) LIMIT 1   [ RunTime:0.001209s ]
+SQL: SELECT `id` FROM `demo_item_cate` WHERE ( `spid` LIKE '342|346|%' )  [ RunTime:0.001794s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 34 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 123 行.
+SQL: SELECT `spid` FROM `demo_item_cate` WHERE ( `id` = 347 ) LIMIT 1   [ RunTime:0.001202s ]
+SQL: SELECT `id` FROM `demo_item_cate` WHERE ( `spid` LIKE '342|347|%' )  [ RunTime:0.001136s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 34 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 123 行.
+SQL: SELECT `spid` FROM `demo_item_cate` WHERE ( `id` = 348 ) LIMIT 1   [ RunTime:0.000936s ]
+SQL: SELECT `id` FROM `demo_item_cate` WHERE ( `spid` LIKE '342|348|%' )  [ RunTime:0.000884s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 34 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 123 行.
+SQL: SELECT `spid` FROM `demo_item_cate` WHERE ( `id` = 349 ) LIMIT 1   [ RunTime:0.001163s ]
+SQL: SELECT `id` FROM `demo_item_cate` WHERE ( `spid` LIKE '343|349|%' )  [ RunTime:0.000883s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 34 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 123 行.
+SQL: SELECT `spid` FROM `demo_item_cate` WHERE ( `id` = 350 ) LIMIT 1   [ RunTime:0.000913s ]
+SQL: SELECT `id` FROM `demo_item_cate` WHERE ( `spid` LIKE '343|350|%' )  [ RunTime:0.000731s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 34 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Lib\Model\item_cateModel.class.php 第 123 行.
+SQL: SELECT `id`,`pid`,`spid`,`name`,`fcolor`,`type`,`seo_title`,`seo_keys`,`seo_desc` FROM `demo_item_cate` WHERE status=1 ORDER BY ordid  [ RunTime:0.002118s ]
+SQL: SELECT `id`,`name`,`img` FROM `demo_item_cate` WHERE ( `pid` = 0 ) AND ( `is_index` = 1 ) AND ( `status` = 1 ) ORDER BY ordid  [ RunTime:0.001120s ]
+SQL: SELECT `id`,`name`,`img` FROM `demo_item_cate` WHERE ( `status` = 1 ) AND ( `is_index` = 1 ) AND ( `spid` LIKE '342|%' ) ORDER BY ordid  [ RunTime:0.001365s ]
+SQL: SELECT `id`,`name`,`img` FROM `demo_item_cate` WHERE ( `status` = 1 ) AND ( `is_index` = 1 ) AND ( `spid` LIKE '343|%' ) ORDER BY ordid  [ RunTime:0.131405s ]
+SQL: SELECT `id`,`name`,`img` FROM `demo_item_cate` WHERE ( `status` = 1 ) AND ( `is_index` = 1 ) AND ( `spid` LIKE '344|%' ) ORDER BY ordid  [ RunTime:0.001756s ]
+SQL: SELECT `id`,`name`,`img` FROM `demo_item_cate` WHERE ( `status` = 1 ) AND ( `is_index` = 1 ) AND ( `spid` LIKE '345|%' ) ORDER BY ordid  [ RunTime:0.019441s ]
+SQL: SHOW COLUMNS FROM `demo_ad` [ RunTime:0.138095s ]
+SQL: SELECT `url`,`content`,`desc` FROM `demo_ad` WHERE board_id=1 and status=1 ORDER BY ordid asc  [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.020519s ]
+SQL: SELECT * FROM `demo_item` WHERE ( `status` = 1 ) AND ( `news` = 1 )  [ RunTime:0.205548s ]
+SQL: SELECT * FROM `demo_item` WHERE ( `status` = 1 ) AND ( `tuijian` = 1 )  [ RunTime:0.002097s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.881224s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012300s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.921106s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.027602s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.937545s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.044026s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-2.949006s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.055521s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-2.949006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.437523s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-3.332481s ]
+INFO: Run TokenBuild Behavior [ RunTime:-3.337944s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-3.341717s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-3.348304s ]
+INFO: Run content_replace Behavior [ RunTime:-3.354687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030060s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-3.363775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007865s ]
+
+[ 2014-07-08T23:26:19+08:00 ] 0.0.0.0 /wxshop/index.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006915s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.145143s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833178 [ RunTime:0.001009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000796s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000632s ]
+INFO: Run load_lang Behavior [ RunTime:-1.893948s ]
+INFO: [ app_begin ] --END-- [ RunTime:2.188213s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.030647s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.043037s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-3.100743s ]
+INFO: [ view_template ] --END-- [ RunTime:0.235659s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-3.337638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154396s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-3.492847s ]
+INFO: Run TokenBuild Behavior [ RunTime:-3.499712s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-3.507055s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-3.511165s ]
+INFO: Run content_replace Behavior [ RunTime:-3.516312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030657s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-3.524797s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007592s ]
+
+[ 2014-07-08T23:26:22+08:00 ] 0.0.0.0 /wxshop/index.php?g=admin&m=index&a=verify_code&t=1404833179
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004130s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.158525s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833181 [ RunTime:0.001460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.001110s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000445s ]
+INFO: Run load_lang Behavior [ RunTime:-0.214212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.233634s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.027161s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.028625s ]
+
+[ 2014-07-08T23:27:04+08:00 ] 0.0.0.0 /wxshop/demo.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004487s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.036703s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833224 [ RunTime:0.001128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000777s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000977s ]
+INFO: Run load_lang Behavior [ RunTime:-0.085254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.097095s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `demo_ad` [ RunTime:0.021309s ]
+SQL: SELECT `url`,`content`,`desc` FROM `demo_ad` WHERE board_id=1 and status=1 ORDER BY ordid asc  [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.021049s ]
+SQL: SELECT * FROM `demo_item` WHERE ( `status` = 1 ) AND ( `news` = 1 )  [ RunTime:0.019370s ]
+SQL: SELECT * FROM `demo_item` WHERE ( `status` = 1 ) AND ( `tuijian` = 1 )  [ RunTime:0.002519s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.215253s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005991s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.237361s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.016110s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.244013s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.022753s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.250776s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.029497s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.250776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.211998s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.434094s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.440844s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.449514s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.460024s ]
+INFO: Run content_replace Behavior [ RunTime:-0.467155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040143s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.474931s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008028s ]
+
+[ 2014-07-08T23:27:09+08:00 ] 0.0.0.0 /wxshop/demo.php?m=Item&a=index&id=127
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006786s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.020637s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833229 [ RunTime:0.001053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000884s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000271s ]
+INFO: Run load_lang Behavior [ RunTime:-0.087425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.132522s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.023911s ]
+SQL: SELECT `id`,`title`,`intro`,`price`,`info`,`comments`,`add_time`,`goods_stock`,`buy_num`,`brand`,`size`,`color` FROM `demo_item` WHERE ( `id` = 127 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `demo_brandlist` [ RunTime:0.019126s ]
+SQL: SELECT `name` FROM `demo_brandlist` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.024916s ]
+SQL: SHOW COLUMNS FROM `demo_item_img` [ RunTime:0.019606s ]
+SQL: SELECT `url` FROM `demo_item_img` WHERE ( `item_id` = 127 ) ORDER BY ordid  [ RunTime:0.000959s ]
+NOTIC: [8] Undefined index: tag_cache E:\wamp\www\wxshop\app\Lib\Action\home\ItemAction.class.php 第 34 行.
+NOTIC: [8] Undefined variable: cmt_list E:\wamp\www\wxshop\app\Lib\Action\home\ItemAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: pager_bar E:\wamp\www\wxshop\app\Lib\Action\home\ItemAction.class.php 第 61 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\wxshop\app\Lib\Action\home\ItemAction.class.php 第 65 行.
+NOTIC: [8] Undefined index: uname E:\wamp\www\wxshop\app\Lib\Action\home\ItemAction.class.php 第 66 行.
+NOTIC: [8] Undefined index: seo_title E:\wamp\www\wxshop\app\Lib\Action\home\ItemAction.class.php 第 67 行.
+NOTIC: [8] Undefined index: seo_keys E:\wamp\www\wxshop\app\Lib\Action\home\ItemAction.class.php 第 68 行.
+NOTIC: [8] Undefined index: seo_desc E:\wamp\www\wxshop\app\Lib\Action\home\ItemAction.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.303331s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015259s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.372732s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.054109s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.388059s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.069427s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.401224s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.082561s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.401224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.273805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.593375s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.600479s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.607670s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.616075s ]
+INFO: Run content_replace Behavior [ RunTime:-0.625364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039132s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.633099s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007702s ]
+
+[ 2014-07-08T23:27:22+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006976s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.018463s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833242 [ RunTime:0.001092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000899s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000293s ]
+INFO: Run load_lang Behavior [ RunTime:-0.091420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.114526s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.021257s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.019532s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.195825s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015394s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.211509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077390s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.289294s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.296867s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.305949s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.313718s ]
+INFO: Run content_replace Behavior [ RunTime:-0.322782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041523s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.331415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009648s ]
+
+[ 2014-07-08T23:27:23+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=verify_code&t=1404833242
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.016649s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.025693s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833243 [ RunTime:0.001145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000710s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000445s ]
+INFO: Run load_lang Behavior [ RunTime:-0.149186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.183938s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.018970s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.019853s ]
+
+[ 2014-07-08T23:27:35+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005709s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.021921s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833255 [ RunTime:0.000957s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000828s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000508s ]
+INFO: Run load_lang Behavior [ RunTime:-0.088589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107210s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.020636s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.023485s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.181581s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007389s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.189603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055247s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.245135s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.249475s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.253710s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.256856s ]
+INFO: Run content_replace Behavior [ RunTime:-0.260949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021046s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.267492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006553s ]
+
+[ 2014-07-08T23:27:36+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=verify_code&t=1404833255
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006587s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.025052s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833255 [ RunTime:0.000879s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000709s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000797s ]
+INFO: Run load_lang Behavior [ RunTime:-0.096947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117451s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.026409s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.027403s ]
+
+[ 2014-07-08T23:27:44+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004803s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.020050s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833263 [ RunTime:0.000947s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000892s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000590s ]
+INFO: Run load_lang Behavior [ RunTime:-0.068712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.084835s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.018788s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.024588s ]
+SQL: SHOW COLUMNS FROM `demo_admin` [ RunTime:0.022286s ]
+SQL: SELECT * FROM `demo_admin` WHERE ( `username` = 'admin' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001464s ]
+SQL: UPDATE `demo_admin` SET `last_time`=1404833264,`last_ip`='0.0.0.0' WHERE ( `id` = 1 ) [ RunTime:0.048157s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.238259s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012197s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.251106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070861s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.322357s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.326088s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.329996s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.333270s ]
+INFO: Run content_replace Behavior [ RunTime:-0.337581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019844s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.342836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004842s ]
+
+[ 2014-07-08T23:27:45+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004578s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.020712s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833265 [ RunTime:0.001127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000889s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000282s ]
+INFO: Run load_lang Behavior [ RunTime:-0.074184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.090173s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.021291s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.022008s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.021754s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 0 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001858s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.193838s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007134s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.201389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124057s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.325854s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.330021s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.335886s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.340035s ]
+INFO: Run content_replace Behavior [ RunTime:-0.345069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022997s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.349844s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005294s ]
+
+[ 2014-07-08T23:27:47+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=panel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011272s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.026021s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833266 [ RunTime:0.001232s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.001121s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000574s ]
+INFO: Run load_lang Behavior [ RunTime:-0.113977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.148587s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.039144s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.073560s ]
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.021003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item` WHERE status=1 LIMIT 1   [ RunTime:0.017214s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item` WHERE status=0 LIMIT 1   [ RunTime:0.017370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item_order` WHERE status=1 LIMIT 1   [ RunTime:0.000993s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item_order` WHERE status=2 LIMIT 1   [ RunTime:0.000878s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item_order` WHERE status=3 LIMIT 1   [ RunTime:0.000992s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.428160s ]
+INFO: [ view_template ] --END-- [ RunTime:0.020145s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.448616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127815s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.577322s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.589184s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.598448s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.605372s ]
+INFO: Run content_replace Behavior [ RunTime:-0.614435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.044732s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.622877s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009324s ]
+
+[ 2014-07-08T23:27:47+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=left
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004366s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.062073s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833266 [ RunTime:0.000929s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000925s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000230s ]
+INFO: Run load_lang Behavior [ RunTime:-0.140798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.159499s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.031535s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.027698s ]
+SQL: SELECT * FROM `demo_menu` WHERE ( `often` = 1 )  [ RunTime:0.001449s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.545144s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006452s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: data E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\11931b56d53ed6cd37821e7cff39a822.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.551997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.660648s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.665814s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.684933s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.688977s ]
+INFO: Run content_replace Behavior [ RunTime:-0.694586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041321s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.702520s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006648s ]
+
+[ 2014-07-08T23:27:53+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=panel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002945s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.019348s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833273 [ RunTime:0.000967s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000920s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000348s ]
+INFO: Run load_lang Behavior [ RunTime:-0.064822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.078002s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.019901s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.024641s ]
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.020236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item` WHERE status=1 LIMIT 1   [ RunTime:0.001200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item` WHERE status=0 LIMIT 1   [ RunTime:0.001013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item_order` WHERE status=1 LIMIT 1   [ RunTime:0.000913s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item_order` WHERE status=2 LIMIT 1   [ RunTime:0.000699s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item_order` WHERE status=3 LIMIT 1   [ RunTime:0.000835s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.182897s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004582s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.187966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067238s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.255619s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.258460s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.261008s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.262849s ]
+INFO: Run content_replace Behavior [ RunTime:-0.265661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014153s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.270506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004167s ]
+
+[ 2014-07-08T23:27:55+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=item&a=index&menuid=52
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005377s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.020505s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833275 [ RunTime:0.001005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000740s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000480s ]
+INFO: Run load_lang Behavior [ RunTime:-0.083993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.101028s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.019956s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.019049s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 52 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001625s ]
+NOTIC: [2] strpos(): Empty needle E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.020739s ]
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.020141s ]
+SQL: SHOW COLUMNS FROM `demo_brandlist` [ RunTime:0.018152s ]
+SQL: SELECT * FROM `demo_brandlist` WHERE status=1 ORDER BY ordid asc,id asc  [ RunTime:0.001436s ]
+SQL: SELECT `id`,`name` FROM `demo_item_cate`  [ RunTime:0.016732s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\wxshop\app\Lib\Action\admin\itemAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: spid E:\wamp\www\wxshop\app\Lib\Action\admin\itemAction.class.php 第 68 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `demo_item` LIMIT 1   [ RunTime:0.000853s ]
+SQL: SELECT * FROM `demo_item` ORDER BY ordid ASC, add_time DESC LIMIT 0,20   [ RunTime:0.003075s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.376857s ]
+INFO: [ view_template ] --END-- [ RunTime:0.017206s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.412837s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.018751s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.433830s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.039471s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.433830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210540s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.605627s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.610834s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.615936s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.621262s ]
+INFO: Run content_replace Behavior [ RunTime:-0.627478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025918s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.632189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005786s ]
+
+[ 2014-07-08T23:27:56+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=item&a=index&menuid=52
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004254s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.020437s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833275 [ RunTime:0.001080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000847s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000494s ]
+INFO: Run load_lang Behavior [ RunTime:-0.071285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.086005s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.024597s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.019206s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 52 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.002000s ]
+NOTIC: [2] strpos(): Empty needle E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.019384s ]
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.019652s ]
+SQL: SHOW COLUMNS FROM `demo_brandlist` [ RunTime:0.019500s ]
+SQL: SELECT * FROM `demo_brandlist` WHERE status=1 ORDER BY ordid asc,id asc  [ RunTime:0.001267s ]
+SQL: SELECT `id`,`name` FROM `demo_item_cate`  [ RunTime:0.001047s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\wxshop\app\Lib\Action\admin\itemAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: spid E:\wamp\www\wxshop\app\Lib\Action\admin\itemAction.class.php 第 68 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `demo_item` LIMIT 1   [ RunTime:0.000934s ]
+SQL: SELECT * FROM `demo_item` ORDER BY ordid ASC, add_time DESC LIMIT 0,20   [ RunTime:0.002288s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.784150s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006114s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.804183s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.013940s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.809686s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.018919s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.809686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150903s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.942259s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.945222s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.948545s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.950734s ]
+INFO: Run content_replace Behavior [ RunTime:-0.953645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015683s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.958753s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004232s ]
+
+[ 2014-07-08T23:27:57+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=item_cate&a=index&menuid=56
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003361s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.041363s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833277 [ RunTime:0.001147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.001084s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000465s ]
+INFO: Run load_lang Behavior [ RunTime:-0.111194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.126861s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.022521s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.024505s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 56 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001814s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.023352s ]
+SQL: SELECT * FROM `demo_item_cate` ORDER BY ordid ASC  [ RunTime:0.001975s ]
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.307168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.038233s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.361060s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.015680s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.367073s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.021499s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-0.367073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124800s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.471301s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.474228s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.476689s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.478481s ]
+INFO: Run content_replace Behavior [ RunTime:-0.481894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014423s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.486995s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005208s ]
+
+[ 2014-07-08T23:27:57+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=item_cate&a=index&menuid=56
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005635s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.021125s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833277 [ RunTime:0.001010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000899s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000449s ]
+INFO: Run load_lang Behavior [ RunTime:-0.083456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102317s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.018373s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.018549s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 56 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001581s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.022688s ]
+SQL: SELECT * FROM `demo_item_cate` ORDER BY ordid ASC  [ RunTime:0.001750s ]
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.501679s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008009s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.526438s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.016692s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.532866s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.023169s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-0.532866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102063s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.612657s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.616330s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.620622s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.623709s ]
+INFO: Run content_replace Behavior [ RunTime:-0.627878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019332s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.632645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004560s ]
+
+[ 2014-07-08T23:27:59+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=item&a=add&menuid=249
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003479s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.019759s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833279 [ RunTime:0.001126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000985s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000274s ]
+INFO: Run load_lang Behavior [ RunTime:-0.071759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.087141s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.024175s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.021207s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 249 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001531s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.019067s ]
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.020898s ]
+SQL: SHOW COLUMNS FROM `demo_brandlist` [ RunTime:0.018140s ]
+SQL: SELECT * FROM `demo_brandlist` WHERE status=1 ORDER BY ordid asc,id asc  [ RunTime:0.001243s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.250531s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006902s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.298961s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.041504s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.304593s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.047170s ]
+NOTIC: [8] Undefined variable: big_menu E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\9f33b0ba768a2be6a54d8cbc1f36ba83.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.304593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137662s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.396074s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.400041s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.403443s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.406219s ]
+INFO: Run content_replace Behavior [ RunTime:-0.410080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017887s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.414626s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004276s ]
+
+[ 2014-07-08T23:28:00+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=item&a=add&menuid=249
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004554s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.022560s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833279 [ RunTime:0.001119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000977s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000277s ]
+INFO: Run load_lang Behavior [ RunTime:-0.080919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.099012s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.018623s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.018180s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 249 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001783s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.020340s ]
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.024446s ]
+SQL: SHOW COLUMNS FROM `demo_brandlist` [ RunTime:0.023929s ]
+SQL: SELECT * FROM `demo_brandlist` WHERE status=1 ORDER BY ordid asc,id asc  [ RunTime:0.001342s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.548072s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009496s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.577258s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.019808s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.582889s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.025378s ]
+NOTIC: [8] Undefined variable: big_menu E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\9f33b0ba768a2be6a54d8cbc1f36ba83.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.582889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128426s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.687085s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.691249s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.695991s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.699101s ]
+INFO: Run content_replace Behavior [ RunTime:-0.703096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020133s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.707822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006757s ]
+
+[ 2014-07-08T23:28:03+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=brandlist&a=index&menuid=291
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006776s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.094010s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833282 [ RunTime:0.001040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000811s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000498s ]
+INFO: Run load_lang Behavior [ RunTime:-0.160640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.182460s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.019452s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.020155s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 291 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001532s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `demo_brandlist` [ RunTime:0.017114s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `demo_brandlist` LIMIT 1   [ RunTime:0.000880s ]
+SQL: SELECT * FROM `demo_brandlist` ORDER BY ordid ASC LIMIT 0,20   [ RunTime:0.001543s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.333793s ]
+INFO: [ view_template ] --END-- [ RunTime:0.027186s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.382679s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.021580s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.389387s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.028428s ]
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.389387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128981s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.491820s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.496441s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.500909s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.504910s ]
+INFO: Run content_replace Behavior [ RunTime:-0.509189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023088s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.517421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007304s ]
+
+[ 2014-07-08T23:28:03+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=brandlist&a=index&menuid=291
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008862s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.019724s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833282 [ RunTime:0.001064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.001066s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000297s ]
+INFO: Run load_lang Behavior [ RunTime:-0.100501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.129170s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.020572s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.020249s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 291 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001570s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `demo_brandlist` [ RunTime:0.019213s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `demo_brandlist` LIMIT 1   [ RunTime:0.000906s ]
+SQL: SELECT * FROM `demo_brandlist` ORDER BY ordid ASC LIMIT 0,20   [ RunTime:0.001485s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.556371s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013980s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.595594s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.025436s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.604725s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.034583s ]
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\2f5c28a1086a3ca3fa15bdad399208d9.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.604725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149390s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.720622s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.728744s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.738532s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.745061s ]
+INFO: Run content_replace Behavior [ RunTime:-0.755563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.044127s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.766490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010895s ]
+
+[ 2014-07-08T23:31:34+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=item&a=add&menuid=249
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004534s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.022484s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833493 [ RunTime:0.001121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000907s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000278s ]
+INFO: Run load_lang Behavior [ RunTime:-0.079606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.095345s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.019563s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.018847s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 249 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001546s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.020523s ]
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.019791s ]
+SQL: SHOW COLUMNS FROM `demo_brandlist` [ RunTime:0.018661s ]
+SQL: SELECT * FROM `demo_brandlist` WHERE status=1 ORDER BY ordid asc,id asc  [ RunTime:0.001230s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.248298s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008502s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.276480s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.019650s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.282270s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.025459s ]
+NOTIC: [8] Undefined variable: big_menu E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\9f33b0ba768a2be6a54d8cbc1f36ba83.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.282270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136865s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.395686s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.408389s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.416523s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.421569s ]
+INFO: Run content_replace Behavior [ RunTime:-0.428401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037726s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.433778s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004949s ]
+
+[ 2014-07-08T23:31:35+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=item_cate&a=index&menuid=56
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006837s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.019709s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833495 [ RunTime:0.001053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000866s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000357s ]
+INFO: Run load_lang Behavior [ RunTime:-0.072149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.091393s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.018601s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.018518s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 56 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.001505s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.020090s ]
+SQL: SELECT * FROM `demo_item_cate` ORDER BY ordid ASC  [ RunTime:0.002063s ]
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid E:\wamp\www\wxshop\app\Lib\ORG\Tree.class.php 第 121 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.227935s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007612s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.250719s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.015371s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.255770s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.020434s ]
+INFO: Run ParseTemplate Behavior [ RunTime:-0.255770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096357s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.332607s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.336560s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.339834s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.342658s ]
+INFO: Run content_replace Behavior [ RunTime:-0.346351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017557s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.351361s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004831s ]
+
+[ 2014-07-08T23:31:36+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=item&a=index&menuid=52
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004799s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.024161s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833496 [ RunTime:0.001056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000781s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000302s ]
+INFO: Run load_lang Behavior [ RunTime:-0.088525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106020s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.022418s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.021856s ]
+SQL: SELECT * FROM `demo_menu` WHERE (  ( `pid` = 52 ) ) AND ( `display` = 1 ) ORDER BY ordid  [ RunTime:0.002263s ]
+NOTIC: [2] strpos(): Empty needle E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.024356s ]
+SQL: SHOW COLUMNS FROM `demo_item_cate` [ RunTime:0.030816s ]
+SQL: SHOW COLUMNS FROM `demo_brandlist` [ RunTime:0.022990s ]
+SQL: SELECT * FROM `demo_brandlist` WHERE status=1 ORDER BY ordid asc,id asc  [ RunTime:0.001442s ]
+SQL: SELECT `id`,`name` FROM `demo_item_cate`  [ RunTime:0.001357s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\wxshop\app\Lib\Action\admin\itemAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: spid E:\wamp\www\wxshop\app\Lib\Action\admin\itemAction.class.php 第 68 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `demo_item` LIMIT 1   [ RunTime:0.000927s ]
+SQL: SELECT * FROM `demo_item` ORDER BY ordid ASC, add_time DESC LIMIT 0,20   [ RunTime:0.003722s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.321023s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009767s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.355206s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.024435s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.364851s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.033947s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [8] Undefined index: colors E:\wamp\www\wxshop\data_demo\runtime\Cache\admin\516bbd045f439ffebe44cea6bc4abf84.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.364851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222061s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.553670s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.558892s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.562305s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.564833s ]
+INFO: Run content_replace Behavior [ RunTime:-0.568218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018440s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.572711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004206s ]
+
+[ 2014-07-08T23:31:37+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=panel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007349s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.024814s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404833497 [ RunTime:0.001049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000885s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000722s ]
+INFO: Run load_lang Behavior [ RunTime:-0.089998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.110825s ]
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.022848s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.028695s ]
+SQL: SHOW COLUMNS FROM `demo_item` [ RunTime:0.030941s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item` WHERE status=1 LIMIT 1   [ RunTime:0.001287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item` WHERE status=0 LIMIT 1   [ RunTime:0.001239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item_order` WHERE status=1 LIMIT 1   [ RunTime:0.000976s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item_order` WHERE status=2 LIMIT 1   [ RunTime:0.000868s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_item_order` WHERE status=3 LIMIT 1   [ RunTime:0.000850s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.251972s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008807s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.261614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073869s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.335805s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.339181s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.344042s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.348381s ]
+INFO: Run content_replace Behavior [ RunTime:-0.353555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.357959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005471s ]
+

@@ -1,0 +1,280 @@
+[ 2014-07-08T23:14:24+08:00 ] 0.0.0.0 /wxshop/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.615430s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1404832458 [ RunTime:0.428083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.346355s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000341s ]
+INFO: Run load_lang Behavior [ RunTime:-1.612223s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.790403s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_ad` [ RunTime:0.152080s ]
+SQL: SELECT `url`,`content`,`desc` FROM `weixin_ad` WHERE board_id=1 and status=1 ORDER BY ordid asc  [ RunTime:0.153292s ]
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.249312s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `news` = 1 )  [ RunTime:0.001885s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `tuijian` = 1 )  [ RunTime:0.002176s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-3.384462s ]
+INFO: [ view_template ] --END-- [ RunTime:0.058255s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-4.040170s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.597388s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-4.188249s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.745324s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-4.204972s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.762241s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-4.204972s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.770150s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-6.213803s ]
+INFO: Run TokenBuild Behavior [ RunTime:-6.395338s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-6.420891s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-6.436529s ]
+INFO: Run content_replace Behavior [ RunTime:-6.455064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.375408s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-6.590001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.017665s ]
+
+[ 2014-07-08T23:18:00+08:00 ] 0.0.0.0 /wxshop/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.011938s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1404832679 [ RunTime:0.000860s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000607s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000216s ]
+INFO: Run load_lang Behavior [ RunTime:-0.038993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046565s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_ad` [ RunTime:0.012682s ]
+SQL: SELECT `url`,`content`,`desc` FROM `weixin_ad` WHERE board_id=1 and status=1 ORDER BY ordid asc  [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.013061s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `news` = 1 )  [ RunTime:0.001776s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `tuijian` = 1 )  [ RunTime:0.001459s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.261514s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006200s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.280383s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.012686s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.284092s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.016521s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.288633s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.020933s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.288633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146468s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.414745s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.423346s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.430576s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.437786s ]
+INFO: Run content_replace Behavior [ RunTime:-0.443709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035449s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.450985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005822s ]
+
+[ 2014-07-08T23:18:05+08:00 ] 0.0.0.0 /wxshop/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002220s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.011332s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1404832685 [ RunTime:0.000470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000427s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000250s ]
+INFO: Run load_lang Behavior [ RunTime:-0.038151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044361s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_ad` [ RunTime:0.012389s ]
+SQL: SELECT `url`,`content`,`desc` FROM `weixin_ad` WHERE board_id=1 and status=1 ORDER BY ordid asc  [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.015836s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `news` = 1 )  [ RunTime:0.000982s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `tuijian` = 1 )  [ RunTime:0.001302s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.099593s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003245s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.110707s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.007855s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.113652s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.010802s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.116343s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.013508s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.116343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134089s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.237696s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.243534s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.247162s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.253189s ]
+INFO: Run content_replace Behavior [ RunTime:-0.259593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025918s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.263856s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004266s ]
+
+[ 2014-07-08T23:20:05+08:00 ] 0.0.0.0 /wxshop/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003199s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.010659s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1404832804 [ RunTime:0.000466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000347s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000135s ]
+INFO: Run load_lang Behavior [ RunTime:-0.059488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.071160s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_ad` [ RunTime:0.137968s ]
+SQL: SELECT `url`,`content`,`desc` FROM `weixin_ad` WHERE board_id=1 and status=1 ORDER BY ordid asc  [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.010248s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `news` = 1 )  [ RunTime:0.000815s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `tuijian` = 1 )  [ RunTime:0.000868s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.253464s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007984s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.273453s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.011979s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.279095s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.017637s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.285486s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.024027s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.285486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153909s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.415780s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.419029s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.422215s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.427628s ]
+INFO: Run content_replace Behavior [ RunTime:-0.432124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019815s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.435862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003405s ]
+
+[ 2014-07-08T23:20:43+08:00 ] 0.0.0.0 /wxshop/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001901s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.021875s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1404832843 [ RunTime:0.000985s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000536s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000120s ]
+INFO: Run load_lang Behavior [ RunTime:-0.049343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.061118s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_ad` [ RunTime:0.009692s ]
+SQL: SELECT `url`,`content`,`desc` FROM `weixin_ad` WHERE board_id=1 and status=1 ORDER BY ordid asc  [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.008458s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `news` = 1 )  [ RunTime:0.000823s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `tuijian` = 1 )  [ RunTime:0.001059s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.099719s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005141s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.114323s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009573s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.118178s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.013424s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.121985s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.017232s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.121985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105848s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.211426s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.214230s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.216261s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.219003s ]
+INFO: Run content_replace Behavior [ RunTime:-0.221346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012259s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.224172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003525s ]
+

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<include file="public:head" />
+</head>
+<body>
+<include file="public:header" />
+
+<div class="main_wrap pt20">
+    <div class="one_page r10">
+        <h2>{:L('flink')}</h2>
+        <div class="flink_list">
+            <pin:flink type="cate" return="flink_cate">
+            <volist name="flink_cate" id="cate">
+            <h3>{$cate.name}</h3>
+            <ul class="clearfix">
+                <pin:flink type="lists" cateid="$cate['id']" return="flink_list">
+                <volist name="flink_list" id="flink">
+                <li><a href="{$flink.url}" target="_blank">{$flink.name}</a></li>
+                </volist>
+                </pin:flink>
+            </ul>
+            </volist>
+            </pin:flink>
+        </div>
+    </div>
+</div>
+
+<include file="public:footer" />
+</body>
+</html>

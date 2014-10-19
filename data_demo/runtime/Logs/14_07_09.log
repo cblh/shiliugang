@@ -1,0 +1,84 @@
+[ 2014-07-09T00:05:48+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004323s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.021522s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404835547 [ RunTime:0.000868s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000883s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000496s ]
+INFO: Run load_lang Behavior [ RunTime:-0.097776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.112941s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.015321s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.019227s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.174587s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010433s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.186062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051465s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.237932s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.241142s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.245307s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.247508s ]
+INFO: Run content_replace Behavior [ RunTime:-0.254764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021158s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.259546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005059s ]
+
+[ 2014-07-09T00:05:48+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=verify_code&t=1404835547
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004888s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.022865s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404835548 [ RunTime:0.001581s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000883s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000419s ]
+INFO: Run load_lang Behavior [ RunTime:-0.132734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.147625s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.025952s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.024283s ]
+
+[ 2014-07-09T00:05:50+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004576s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.014467s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404835550 [ RunTime:0.000906s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000689s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000397s ]
+INFO: Run load_lang Behavior [ RunTime:-0.157355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.172016s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.019535s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.017585s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.235589s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004789s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.240724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044049s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.285680s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.290946s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.293835s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.296004s ]
+INFO: Run content_replace Behavior [ RunTime:-0.299427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016667s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.302710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003384s ]
+
+[ 2014-07-09T00:05:51+08:00 ] 0.0.0.0 /wxshop/demo.php?g=admin&m=index&a=verify_code&t=1404835550
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004565s ]
+SQL: SHOW COLUMNS FROM `demo_ipban` [ RunTime:0.031721s ]
+SQL: DELETE FROM `demo_ipban` WHERE expires_time <> 0 AND expires_time < 1404835551 [ RunTime:0.003424s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `demo_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.001565s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000372s ]
+INFO: Run load_lang Behavior [ RunTime:-0.104912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.123067s ]
+NOTIC: [8] Undefined index: admin E:\wamp\www\wxshop\app\Lib\Action\backendAction.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `demo_menu` [ RunTime:0.014561s ]
+SQL: SHOW COLUMNS FROM `demo_item_order` [ RunTime:0.013930s ]
+

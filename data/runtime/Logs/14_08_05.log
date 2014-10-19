@@ -1,0 +1,839 @@
+[ 2014-08-05T14:18:33+08:00 ] 0.0.0.0 /backup/wxshop/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.257804s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.528652s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407219501 [ RunTime:0.001702s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.242645s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.566970s ]
+INFO: Run load_lang Behavior [ RunTime:-6.976487s ]
+INFO: [ app_begin ] --END-- [ RunTime:8.674468s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_ad` [ RunTime:0.564931s ]
+SQL: SELECT `url`,`content`,`desc` FROM `weixin_ad` WHERE board_id=1 and status=1 ORDER BY ordid asc  [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.187773s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `news` = 1 )  [ RunTime:0.002104s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `tuijian` = 1 )  [ RunTime:0.001948s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-11.117853s ]
+INFO: [ view_template ] --END-- [ RunTime:1.022825s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-13.156701s ]
+INFO: [ view_template ] --END-- [ RunTime:-1.016001s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-13.303526s ]
+INFO: [ view_template ] --END-- [ RunTime:-1.162681s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-13.651465s ]
+INFO: [ view_template ] --END-- [ RunTime:-1.510754s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-13.651465s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.537149s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-16.678819s ]
+INFO: Run TokenBuild Behavior [ RunTime:-16.888404s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-17.007054s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-17.089005s ]
+INFO: Run content_replace Behavior [ RunTime:-17.137138s ]
+INFO: [ view_filter ] --END-- [ RunTime:1.504961s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-18.184749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.072187s ]
+
+[ 2014-08-05T14:22:29+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Item&a=index&id=128
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006885s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407219748 [ RunTime:0.000490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000300s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000177s ]
+INFO: Run load_lang Behavior [ RunTime:-0.023596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.083418s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.021157s ]
+SQL: SELECT `id`,`title`,`intro`,`price`,`info`,`comments`,`add_time`,`goods_stock`,`buy_num`,`brand`,`size`,`color` FROM `weixin_item` WHERE ( `id` = 128 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `weixin_brandlist` [ RunTime:0.072801s ]
+SQL: SELECT `name` FROM `weixin_brandlist` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `weixin_item_img` [ RunTime:0.076638s ]
+SQL: SELECT `url` FROM `weixin_item_img` WHERE ( `item_id` = 128 ) ORDER BY ordid  [ RunTime:0.001070s ]
+NOTIC: [8] Undefined index: tag_cache E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 34 行.
+NOTIC: [8] Undefined variable: cmt_list E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: pager_bar E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 61 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 65 行.
+NOTIC: [8] Undefined index: uname E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 66 行.
+NOTIC: [8] Undefined index: seo_title E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 67 行.
+NOTIC: [8] Undefined index: seo_keys E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 68 行.
+NOTIC: [8] Undefined index: seo_desc E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.339651s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006221s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.380992s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.035274s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.384143s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.038426s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.387056s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.041345s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.387056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138551s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.484800s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.487690s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.490415s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.493872s ]
+INFO: Run content_replace Behavior [ RunTime:-0.497923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.501128s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003037s ]
+
+[ 2014-08-05T14:22:32+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006788s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407219752 [ RunTime:0.000380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000309s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000084s ]
+INFO: Run load_lang Behavior [ RunTime:-0.026114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031278s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.006979s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000947s ]
+
+[ 2014-08-05T14:22:32+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl/home/default/Style/images/login_h1.gif
+[ 2014-08-05T14:22:41+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006795s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407219761 [ RunTime:0.000404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000319s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000085s ]
+INFO: Run load_lang Behavior [ RunTime:-0.025846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030979s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.007317s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000434s ]
+
+[ 2014-08-05T14:22:49+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006835s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407219769 [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000308s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000087s ]
+INFO: Run load_lang Behavior [ RunTime:-0.026087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031041s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.007754s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000499s ]
+
+[ 2014-08-05T14:23:03+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.007020s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407219783 [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000306s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000085s ]
+INFO: Run load_lang Behavior [ RunTime:-0.025958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030665s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.007310s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000428s ]
+
+[ 2014-08-05T16:28:46+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.021562s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.089988s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407227326 [ RunTime:0.016388s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000457s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.009599s ]
+INFO: Run load_lang Behavior [ RunTime:-0.656326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.712929s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.039292s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.013446s ]
+
+[ 2014-08-05T16:28:47+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl/home/default/Style/images/login_h1.gif
+[ 2014-08-05T16:28:47+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006730s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407227327 [ RunTime:0.000341s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000305s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000083s ]
+INFO: Run load_lang Behavior [ RunTime:-0.021517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024626s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.007369s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000408s ]
+
+[ 2014-08-05T16:28:48+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006737s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407227328 [ RunTime:0.000388s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000372s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000090s ]
+INFO: Run load_lang Behavior [ RunTime:-0.023605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027336s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.007201s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000436s ]
+
+[ 2014-08-05T16:28:54+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.033336s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407227334 [ RunTime:0.001032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000879s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000082s ]
+INFO: Run load_lang Behavior [ RunTime:-0.174366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.180735s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.009419s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000593s ]
+
+[ 2014-08-05T16:28:54+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.020117s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407227334 [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000269s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000083s ]
+INFO: Run load_lang Behavior [ RunTime:-0.079144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.082130s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.007336s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000438s ]
+
+[ 2014-08-05T16:31:12+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002261s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.017656s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407227472 [ RunTime:0.001057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.001039s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000139s ]
+INFO: Run load_lang Behavior [ RunTime:-0.092105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.100720s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.010134s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000667s ]
+
+[ 2014-08-05T16:31:19+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006258s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407227479 [ RunTime:0.000315s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000261s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000081s ]
+INFO: Run load_lang Behavior [ RunTime:-0.029811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032739s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.006690s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000375s ]
+
+[ 2014-08-05T16:54:10+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004082s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.018645s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407228849 [ RunTime:0.001160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000911s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000152s ]
+INFO: Run load_lang Behavior [ RunTime:-0.171223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.187245s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.010787s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000475s ]
+
+[ 2014-08-05T17:50:49+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.050308s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232249 [ RunTime:0.001083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000612s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000225s ]
+INFO: Run load_lang Behavior [ RunTime:-0.306338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.312763s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.008172s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000532s ]
+
+[ 2014-08-05T17:50:50+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=add_cart
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006584s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232250 [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000264s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000091s ]
+INFO: Run load_lang Behavior [ RunTime:-0.114014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117462s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.017295s ]
+SQL: SELECT `id`,`title`,`img`,`price`,`goods_stock` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000564s ]
+
+[ 2014-08-05T17:50:55+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.033129s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232252 [ RunTime:0.000529s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000439s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000100s ]
+INFO: Run load_lang Behavior [ RunTime:-0.180796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.184568s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.211740s ]
+INFO: [ view_template ] --END-- [ RunTime:0.129136s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.407227s ]
+INFO: [ view_template ] --END-- [ RunTime:-1.066201s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.512646s ]
+INFO: [ view_template ] --END-- [ RunTime:-1.171680s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.512646s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.285981s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-3.627927s ]
+INFO: Run TokenBuild Behavior [ RunTime:-3.658322s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-3.725635s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-3.792809s ]
+INFO: Run content_replace Behavior [ RunTime:-3.807629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.235951s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-3.864069s ]
+INFO: [ view_end ] --END-- [ RunTime:0.028138s ]
+
+[ 2014-08-05T17:50:56+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.147887s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232255 [ RunTime:0.016973s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000575s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000120s ]
+INFO: Run load_lang Behavior [ RunTime:-1.247915s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.254135s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.661688s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006758s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.740443s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.071991s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-1.746258s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.077793s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.746258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247585s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.916475s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.919272s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.922069s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.925516s ]
+INFO: Run content_replace Behavior [ RunTime:-1.928627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014961s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.931662s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003673s ]
+
+[ 2014-08-05T17:57:16+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004663s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.032011s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232636 [ RunTime:0.001023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000898s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000287s ]
+INFO: Run load_lang Behavior [ RunTime:-0.156592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.170820s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.276964s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009362s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.322505s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.036154s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.328120s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.041889s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.328120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135629s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.422372s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.423824s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.425198s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.427415s ]
+INFO: Run content_replace Behavior [ RunTime:-0.430001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.431624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2014-08-05T17:57:23+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004269s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.010784s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232643 [ RunTime:0.000642s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000501s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000241s ]
+INFO: Run load_lang Behavior [ RunTime:-0.073913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.083425s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.099688s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003191s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.111327s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.008451s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.114541s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.011669s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.114541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064330s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.167509s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.168968s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.170375s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.172324s ]
+INFO: Run content_replace Behavior [ RunTime:-0.173807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007586s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.175303s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2014-08-05T17:57:35+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Item&a=index&id=128
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004046s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.010365s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232654 [ RunTime:0.000530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000412s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000245s ]
+INFO: Run load_lang Behavior [ RunTime:-0.085178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.128570s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.006815s ]
+SQL: SELECT `id`,`title`,`intro`,`price`,`info`,`comments`,`add_time`,`goods_stock`,`buy_num`,`brand`,`size`,`color` FROM `weixin_item` WHERE ( `id` = 128 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.025350s ]
+SQL: SHOW COLUMNS FROM `weixin_brandlist` [ RunTime:0.041867s ]
+SQL: SELECT `name` FROM `weixin_brandlist` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.039588s ]
+SQL: SHOW COLUMNS FROM `weixin_item_img` [ RunTime:0.026072s ]
+SQL: SELECT `url` FROM `weixin_item_img` WHERE ( `item_id` = 128 ) ORDER BY ordid  [ RunTime:0.022371s ]
+NOTIC: [8] Undefined index: tag_cache E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 34 行.
+NOTIC: [8] Undefined variable: cmt_list E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: pager_bar E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 61 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 65 行.
+NOTIC: [8] Undefined index: uname E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 66 行.
+NOTIC: [8] Undefined index: seo_title E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 67 行.
+NOTIC: [8] Undefined index: seo_keys E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 68 行.
+NOTIC: [8] Undefined index: seo_desc E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.378379s ]
+INFO: [ view_template ] --END-- [ RunTime:0.017646s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.427535s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.031484s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.452143s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.056065s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.458341s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.062294s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.458341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183698s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.580219s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.583165s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.585918s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.589295s ]
+INFO: Run content_replace Behavior [ RunTime:-0.592287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015097s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.595612s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003044s ]
+
+[ 2014-08-05T18:01:16+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002008s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.012569s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232876 [ RunTime:0.000441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000281s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000112s ]
+INFO: Run load_lang Behavior [ RunTime:-0.099925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.105664s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.122166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003509s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.133010s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.007462s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.136368s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.010821s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.136368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065842s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.191685s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.193135s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.194873s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.197889s ]
+INFO: Run content_replace Behavior [ RunTime:-0.202113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012602s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.204799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002191s ]
+
+[ 2014-08-05T18:01:18+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Item&a=index&id=128
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001804s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006465s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232878 [ RunTime:0.000337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000351s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000099s ]
+INFO: Run load_lang Behavior [ RunTime:-0.089593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.095758s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.007502s ]
+SQL: SELECT `id`,`title`,`intro`,`price`,`info`,`comments`,`add_time`,`goods_stock`,`buy_num`,`brand`,`size`,`color` FROM `weixin_item` WHERE ( `id` = 128 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `weixin_brandlist` [ RunTime:0.006474s ]
+SQL: SELECT `name` FROM `weixin_brandlist` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `weixin_item_img` [ RunTime:0.006699s ]
+SQL: SELECT `url` FROM `weixin_item_img` WHERE ( `item_id` = 128 ) ORDER BY ordid  [ RunTime:0.000375s ]
+NOTIC: [8] Undefined index: tag_cache E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 34 行.
+NOTIC: [8] Undefined variable: cmt_list E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: pager_bar E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 61 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 65 行.
+NOTIC: [8] Undefined index: uname E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 66 行.
+NOTIC: [8] Undefined index: seo_title E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 67 行.
+NOTIC: [8] Undefined index: seo_keys E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 68 行.
+NOTIC: [8] Undefined index: seo_desc E:\wamp\www\backup\wxshop\app\Lib\Action\home\ItemAction.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.135283s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003484s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.144908s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006136s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.148456s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009674s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.151893s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.013119s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.151893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092219s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.231300s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.232759s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.233985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.236070s ]
+INFO: Run content_replace Behavior [ RunTime:-0.237554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007678s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.239198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2014-08-05T18:01:25+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=User&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001227s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.017767s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232885 [ RunTime:0.000342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000281s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000107s ]
+INFO: Run load_lang Behavior [ RunTime:-0.084689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.130886s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [8] Undefined variable: synlogout E:\wamp\www\backup\wxshop\app\Lib\Action\home\UserAction.class.php 第 79 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.162127s ]
+INFO: [ view_template ] --END-- [ RunTime:0.026646s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.215455s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.026657s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.218838s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.030058s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.221468s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.032692s ]
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.221468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074980s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.264075s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.265303s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.266449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.268295s ]
+INFO: Run content_replace Behavior [ RunTime:-0.269656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006848s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.271159s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2014-08-05T18:01:30+08:00 ] 0.0.0.0 /backup/wxshop/index.php?app=memberbuy&store_id=9
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.010425s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232889 [ RunTime:0.000516s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000453s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000097s ]
+INFO: Run load_lang Behavior [ RunTime:-0.129413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.136389s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_ad` [ RunTime:0.061710s ]
+SQL: SELECT `url`,`content`,`desc` FROM `weixin_ad` WHERE board_id=1 and status=1 ORDER BY ordid asc  [ RunTime:0.014943s ]
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.007307s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `news` = 1 )  [ RunTime:0.041190s ]
+SQL: SELECT * FROM `weixin_item` WHERE ( `status` = 1 ) AND ( `tuijian` = 1 )  [ RunTime:0.000636s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.279069s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013144s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.362145s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.069843s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.365447s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.073222s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.368806s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.076528s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.368806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186194s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.478955s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.480190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.481340s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.483252s ]
+INFO: Run content_replace Behavior [ RunTime:-0.484763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007133s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.486307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2014-08-05T18:01:34+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Shopcart&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006656s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232893 [ RunTime:0.000337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000264s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000176s ]
+INFO: Run load_lang Behavior [ RunTime:-0.058103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062347s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.074320s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002297s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.083332s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.006663s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.086583s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.009959s ]
+NOTIC: [2048] Only variables should be passed by reference E:\wamp\www\backup\wxshop\app\Common\common.php 第 125 行.
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.086583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057420s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.134338s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.135567s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.136757s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.138671s ]
+INFO: Run content_replace Behavior [ RunTime:-0.140040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006947s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.141563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2014-08-05T18:01:36+08:00 ] 0.0.0.0 /backup/wxshop/index.php?m=Order&a=jiesuan
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `weixin_ipban` [ RunTime:0.006456s ]
+SQL: DELETE FROM `weixin_ipban` WHERE expires_time <> 0 AND expires_time < 1407232896 [ RunTime:0.000344s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weixin_ipban` WHERE ( `type` = 'ip' ) AND ( `name` = '0.0.0.0' ) LIMIT 1   [ RunTime:0.000264s ]
+INFO: Run check_ipban Behavior [ RunTime:-0.000100s ]
+INFO: Run load_lang Behavior [ RunTime:-0.063636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067849s ]
+NOTIC: [8] Use of undefined constant PINPHP_PATH - assumed 'PINPHP_PATH' E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php): failed to open stream: No such file or directory E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+NOTIC: [2] include_once(): Failed opening 'PINPHP_PATHapp/Lib/Pinlib/user_visitor.class.php' for inclusion (include_path='.;C:\php\pear;./app/Extend/Vendor/') E:\wamp\www\backup\wxshop\app\Lib\Action\frontendAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `weixin_user_address` [ RunTime:0.134451s ]
+SQL: SELECT * FROM `weixin_user_address` WHERE ( `uid` = 31 )  [ RunTime:0.009686s ]
+SQL: SHOW COLUMNS FROM `weixin_item` [ RunTime:0.010659s ]
+SQL: SELECT `free`,`pingyou`,`kuaidi`,`ems` FROM `weixin_item` WHERE ( `id` = 128 ) LIMIT 1   [ RunTime:0.000524s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.261023s ]
+INFO: [ view_template ] --END-- [ RunTime:0.022874s ]
+INFO: [ view_parse ] --START--
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.360914s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.076937s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.367742s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.083717s ]
+INFO: [ view_template ] --START--
+INFO: Run basic_template Behavior [ RunTime:-0.374439s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.090472s ]
+NOTIC: [2] Missing argument 1 for JSMin::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 14 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 89 行.
+NOTIC: [8] Undefined variable: input E:\wamp\www\backup\wxshop\app\Lib\ORG\JSMin.class.php 第 91 行.
+NOTIC: [2] Missing argument 1 for Dir::__construct(), called in E:\wamp\www\backup\wxshop\app\Lib\Pintag\loadTag.class.php on line 15 and defined E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 37 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+NOTIC: [8] Undefined variable: path E:\wamp\www\backup\wxshop\app\Lib\ORG\Dir.class.php 第 39 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.374439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196700s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.481083s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.482323s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.483466s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.485275s ]
+INFO: Run content_replace Behavior [ RunTime:-0.486651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006819s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.488117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2014-08-05T18:01:37+08:00 ] ERR: (ThinkException) 无法加载模块:Tpl/home/default/Style/js/dialog.css

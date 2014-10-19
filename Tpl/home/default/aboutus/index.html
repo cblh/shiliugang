@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<include file="public:headtop" />
+</head>
+<body>
+<include file="public:head" />
+
+<div id="content">
+    <div class="about pt20">
+        <div class="about_top">
+            <ul class="about_nav clearfix">
+            	<pin:article type="cate" cateid="1" return="about_nav">
+	            <volist name="about_nav" id="val">
+	            <li <if condition="$info['cate_id'] eq $val['id']">class="current"</if>><a href="{:U('aboutus/index', array('id'=>$val['id']))}">{$val.name}</a></li>
+	            </volist>
+	            </pin:article>
+            </ul>
+        </div>
+        <div class="about_content">
+        	{$info.info}
+        </div>
+    </div>
+</div>
+
+<include file="public:footer" />
+</body>
+</html>
